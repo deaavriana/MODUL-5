@@ -26,6 +26,9 @@ public class Manager extends Pekerja {
     @Override
     public String toString() {
         return super.toString() + "\n" +
-                "Departemen   : " + departemen;
+                String.format(
+                "Departemen    : %s",
+                departemen
+                );
     }
 }
